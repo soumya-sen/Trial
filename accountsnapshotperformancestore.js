@@ -24,9 +24,16 @@ const AccountSnapshotPerformanceStore = Reflux.createStore({
   get accountSnapshotPerformance(){
     return _accountSnapshotData;
   },
+<<<<<<< HEAD
 
 get accountSnapshotPerformance3(){
     return _accountSnapshotData3;
+=======
+  
+   get accountSnapshotPerformance2(){
+    return _accountSnapshotData2;
+>>>>>>> 523fe06b338402930c8ba193bf81b0b14704eaf9
   }
+                                                           
 });
 export default AccountSnapshotPerformanceStore;
